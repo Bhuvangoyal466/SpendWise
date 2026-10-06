@@ -1,0 +1,67 @@
+date,amount,type,category,merchant,description,payment_method
+2026-07-01,115000,income,Income,Corporate Payroll,Monthly salary credit,bank_transfer
+2026-07-02,26000,expense,Housing,Rent - Gachibowli,Monthly rent,bank_transfer
+2026-07-03,999,expense,Utilities,ACT Fibernet,Home internet,UPI
+2026-07-04,649,expense,Entertainment,Netflix,Monthly subscription,card
+2026-07-05,699,expense,Utilities,Mobile Recharge,Monthly mobile plan,UPI
+2026-07-06,1850,expense,Groceries,Ratnadeep,Weekly groceries,UPI
+2026-07-08,420,expense,Dining,Swiggy,Lunch delivery,UPI
+2026-07-10,280,expense,Transport,Uber,Office commute,UPI
+2026-07-12,960,expense,Dining,Bawarchi,Weekend dinner,UPI
+2026-07-13,1250,expense,Shopping,Amazon India,Home essentials,card
+2026-07-15,1320,expense,Groceries,D-Mart,Groceries,UPI
+2026-07-17,350,expense,Transport,Hyderabad Metro,Office commute,card
+2026-07-18,740,expense,Entertainment,BookMyShow,Movie tickets,UPI
+2026-07-20,510,expense,Dining,Zomato,Dinner delivery,UPI
+2026-07-22,690,expense,Transport,Rapido,Office commute,UPI
+2026-07-24,2250,expense,Shopping,Myntra,Workwear purchase,card
+2026-07-25,119,expense,Entertainment,Spotify,Monthly subscription,card
+2026-07-26,1650,expense,Groceries,Zepto,Monthly groceries,UPI
+2026-07-27,780,expense,Dining,Local Cafe,Team lunch,UPI
+2026-07-29,1150,expense,Health,Tata 1mg,Medicines,UPI
+2026-07-30,540,expense,Transport,Uber,Office commute,UPI
+2026-07-31,1100,expense,Dining,Swiggy,Month-end dinner,UPI
+2026-08-01,115000,income,Income,Corporate Payroll,Monthly salary credit,bank_transfer
+2026-08-02,26000,expense,Housing,Rent - Gachibowli,Monthly rent,bank_transfer
+2026-08-03,1015,expense,Utilities,ACT Fibernet,Home internet,UPI
+2026-08-04,649,expense,Entertainment,Netflix,Monthly subscription,card
+2026-08-05,699,expense,Utilities,Mobile Recharge,Monthly mobile plan,UPI
+2026-08-06,2140,expense,Groceries,Ratnadeep,Weekly groceries,UPI
+2026-08-08,510,expense,Dining,Zomato,Lunch delivery,UPI
+2026-08-09,430,expense,Transport,Hyderabad Metro,Office commute,card
+2026-08-10,14500,expense,Shopping,Amazon India,Laptop accessories and monitor,card
+2026-08-12,1480,expense,Groceries,D-Mart,Groceries,UPI
+2026-08-14,310,expense,Transport,Rapido,Office commute,UPI
+2026-08-15,1180,expense,Dining,Bawarchi,Weekend dinner,UPI
+2026-08-16,890,expense,Entertainment,PVR INOX,Movie and snacks,UPI
+2026-08-18,680,expense,Dining,Swiggy,Dinner delivery,UPI
+2026-08-20,620,expense,Transport,Uber,Office commute,UPI
+2026-08-22,2350,expense,Shopping,Myntra,Clothing purchase,card
+2026-08-25,119,expense,Entertainment,Spotify,Monthly subscription,card
+2026-08-26,1920,expense,Groceries,Blinkit,Monthly groceries,UPI
+2026-08-27,760,expense,Dining,Local Cafe,Team lunch,UPI
+2026-08-28,2100,expense,Health,Apollo Pharmacy,Medicines and checkup,UPI
+2026-08-30,530,expense,Transport,Uber,Office commute,UPI
+2026-08-31,950,expense,Dining,Zomato,Month-end dinner,UPI
+2026-09-01,115000,income,Income,Corporate Payroll,Monthly salary credit,bank_transfer
+2026-09-02,26000,expense,Housing,Rent - Gachibowli,Monthly rent,bank_transfer
+2026-09-03,1000,expense,Utilities,ACT Fibernet,Home internet,UPI
+2026-09-04,649,expense,Entertainment,Netflix,Monthly subscription,card
+2026-09-05,699,expense,Utilities,Mobile Recharge,Monthly mobile plan,UPI
+2026-09-06,1980,expense,Groceries,Ratnadeep,Weekly groceries,UPI
+2026-09-08,460,expense,Dining,Swiggy,Lunch delivery,UPI
+2026-09-09,390,expense,Transport,Hyderabad Metro,Office commute,card
+2026-09-11,1780,expense,Shopping,Amazon India,Household electronics,card
+2026-09-12,920,expense,Dining,Bawarchi,Weekend dinner,UPI
+2026-09-13,760,expense,Entertainment,BookMyShow,Movie tickets,UPI
+2026-09-15,1380,expense,Groceries,D-Mart,Groceries,UPI
+2026-09-17,350,expense,Transport,Rapido,Office commute,UPI
+2026-09-18,590,expense,Dining,Zomato,Dinner delivery,UPI
+2026-09-20,640,expense,Transport,Uber,Office commute,UPI
+2026-09-22,1850,expense,Shopping,Flipkart,Home appliances,card
+2026-09-25,119,expense,Entertainment,Spotify,Monthly subscription,card
+2026-09-26,1740,expense,Groceries,Zepto,Monthly groceries,UPI
+2026-09-27,9200,expense,Health,Apollo Clinic,Unexpected medical expense,UPI
+2026-09-28,720,expense,Dining,Local Cafe,Team lunch,UPI
+2026-09-29,480,expense,Transport,Hyderabad Metro,Office commute,card
+2026-09-30,1080,expense,Dining,Swiggy,Month-end dinner,UPI

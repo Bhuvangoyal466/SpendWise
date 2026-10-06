@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+pydantic-settings
+python-jose
+bcrypt==4.0.1
+python-multipart
+pandas
+numpy
+scikit-learn
+statsmodels
+httpx
+email-validator
+requests
+groq
+python-dotenv

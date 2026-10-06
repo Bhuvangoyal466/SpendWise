@@ -1,0 +1,144 @@
+/*
+  Fonts are loaded via a standard CSS @import (resolved by the end user's
+  browser at runtime) rather than next/font/google, so the production build
+  doesn't require build-time network access to fonts.googleapis.com. Falls
+  back gracefully to the system stack below if the request is blocked.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+/*
+  SpendWise AI — "Instrument Ledger" design system.
+  Numbers are always set in mono (IBM Plex Mono) to structurally distinguish
+  data from labels. Amber is reserved exclusively for the What-If Simulator /
+  Time Machine so it reads as "this is the control that acts."
+*/
+
+:root {
+  --ink: #10161c;
+  --surface: #182029;
+  --surface-raised: #1e2833;
+  --border: #2a343e;
+  --border-soft: #212b34;
+  --text-primary: #edeff2;
+  --text-muted: #8b96a3;
+  --text-faint: #5c6773;
+  --verdigris: #4fd1a5;
+  --verdigris-dim: #2f7a63;
+  --clay: #e8927c;
+  --clay-dim: #8a5347;
+  --amber: #f2b84b;
+  --amber-dim: #8a6a2c;
+
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--ink);
+  color: var(--text-primary);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display), system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.font-mono-num {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* The ledger tick: a hairline rule with a small perpendicular mark at the
+   left edge. Used as the signature divider throughout the app — evokes a
+   ledger book / ticker tape rather than a decorative underline. */
+.ledger-tick {
+  position: relative;
+  height: 1px;
+  background: var(--border);
+  margin-block: 1.5rem;
+}
+.ledger-tick::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -3px;
+  width: 1px;
+  height: 7px;
+  background: var(--text-faint);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.card-raised {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+::selection {
+  background: var(--amber-dim);
+  color: var(--text-primary);
+}
+
+/* visible keyboard focus everywhere, per accessibility floor */
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* thin scrollbars fitting the instrument-panel feel */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 5px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-faint); }
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2px;
+  background: var(--border);
+  border-radius: 999px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--amber);
+  cursor: pointer;
+  border: 2px solid var(--ink);
+  box-shadow: 0 0 0 1px var(--amber);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--amber);
+  cursor: pointer;
+  border: 2px solid var(--ink);
+}
